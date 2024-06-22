@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "_version": "16.1.0",
+
+  "compilerOptions": {
+    "lib": ["dom", "es2021"],
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "module": "node16",
+    "target": "es2021",
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node16"
+  },
+  "exclude": ["node_modules/**"],
+  "include": ["src/**/*"]
+}
